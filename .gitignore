@@ -1,0 +1,21 @@
+*.pt
+*.tar
+data/*
+logs/*
+results/*
+analysis/*
+__pycache__/*
+*.ipynb_checkpoints
+*.pyc
+openai/*
+*.ckpt
+src/clip/
+src/taming-transformers/
+
+# Large output files (generated images pushed to Kaggle instead)
+outputs/level2_test/generated/
+outputs/level2_test/dataset-metadata.json
+dataset-metadata.json
+outputs/level1_1k/generated/
+outputs/level1_1k/inputs/
+outputs/level2_1k/generated/

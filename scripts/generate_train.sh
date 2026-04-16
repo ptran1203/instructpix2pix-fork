@@ -1,0 +1,11 @@
+python3 dataset_creation/generate_img_dataset.py \
+  --out_dir data/generated_dataset \
+  --prompts_file data/gpt-generated-prompts.jsonl \
+  --steps 50 \
+  --n-samples 10 \
+  --max-out-samples 10 \
+  --clip-threshold 0.2 \
+  --clip-dir-threshold 0.2 \
+  --clip-img-threshold 0.2 \
+  --n-partitions 18 \
+  --partition 0

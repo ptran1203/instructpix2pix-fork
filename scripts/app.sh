@@ -1,0 +1,1 @@
+python3 edit_app.py   --config configs/generate.yaml   --ckpt logs/train_small_ip2p-small/checkpoints/last.ckpt
